@@ -9,6 +9,7 @@ function Detail() {
 
   // ambil nama kota dari URL, contoh: /detail/Jakarta → city = "Jakarta"
   const { city } = useParams()
+  
   const navigate = useNavigate()
 
   // state untuk menyimpan data detail cuaca

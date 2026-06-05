@@ -11,6 +11,7 @@ function Navbar() {
         </Link>
 
         {/* ===== KETERANGAN ==== */}
+        
         <span className="text-sm text-white/70">made by qeis alvaro</span>
 
       </div>
