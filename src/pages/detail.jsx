@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
-import WeatherDetail from '../components/WeatherDetail'
+import WeatherDetail from '../components/weatherDetail'
 
 // ambil API key dari file .env
 const API_KEY = import.meta.env.VITE_WEATHER_API_KEY
@@ -9,7 +9,7 @@ function Detail() {
 
   // ambil nama kota dari URL, contoh: /detail/Jakarta → city = "Jakarta"
   const { city } = useParams()
-  
+
   const navigate = useNavigate()
 
   // state untuk menyimpan data detail cuaca

@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
-import SearchBar from '../components/SearchBar'
-import WeatherCard from '../components/WeatherCard'
+import SearchBar from '../components/searchBar'
+import WeatherCard from '../components/weatherCard'
 
 // ambil API key dari file .env
 const API_KEY = import.meta.env.VITE_WEATHER_API_KEY
@@ -59,7 +59,7 @@ function Home() {
 
   // format hari menjadi "Kamis"
   const hari = waktu.toLocaleDateString('id-ID', { weekday: 'long' })
-  
+
 
   return (
     <main className="max-w-3xl mx-auto px-4 py-10">
